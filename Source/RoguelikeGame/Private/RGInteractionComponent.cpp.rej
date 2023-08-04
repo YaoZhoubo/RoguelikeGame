@@ -1,0 +1,10 @@
+diff a/Source/RoguelikeGame/Private/RGInteractionComponent.cpp b/Source/RoguelikeGame/Private/RGInteractionComponent.cpp	(rejected hunks)
+@@ -69,7 +69,7 @@
+ 				// ���Ƕ����Interact()����ΪPawn���ͣ����������ת��
+ 				APawn* MyPawn = Cast<APawn>(MyOwner);
+ 				// ��̬�����ݴ����HitActor������Ӧ����
+-				// ��һ����������Ϊ�գ���������Ѿ��пգ��ڶ��������������Զ���ģ���ʱû��Ӱ�죬���Բ��п�
++				// ��һ����������Ϊ�գ���������Ѿ��пգ��ڶ����������Զ���ģ���ʱû��Ӱ�죬���Բ��п�
+ 				IRGGameplayInterface::Execute_Interact(HitActor, MyPawn);
+ 				// ����debug������������ײ�����ߣ���ɫ
+ 			}

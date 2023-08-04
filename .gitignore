@@ -49,6 +49,7 @@ SourceArt/**/*.tga
 Binaries/*
 Plugins/*/Binaries/*
 
+Content/ExampleContent/*
 # Builds
 Build/*
 
@@ -72,3 +73,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+Content/*
